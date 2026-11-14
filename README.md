@@ -1,180 +1,174 @@
-# Student Lifestyle, Learning Habits & Domain Skill Development Analytics
+# Student Lifestyle, Learning Habits & Domain Skill Development – Statistics Project
 
-## 1. Project Overview
+## Project Overview
 
-This project focuses on analyzing students' daily routines, learning habits, career-domain skill development, practical project experience, and career readiness using statistical techniques and Python.
+This is a practical **Statistics Project developed using Python in Jupyter Notebook**. The project analyzes student lifestyle, learning habits, academic activities, and domain skill development using statistical techniques.
 
-The objective is to understand how students allocate their time, develop technical skills, gain practical experience, and prepare for their future careers.
+The main objective is to understand student-related patterns, identify relationships between different variables, analyze data distribution, and generate meaningful statistical insights from survey data.
 
-The project follows a data-driven approach:
+The project demonstrates the practical application of statistical concepts using Python libraries and data analysis techniques.
 
-**Data Collection → Data Cleaning → Statistical Analysis → Visualization → Inference → Impact → Suggestions**
+## Project Type
+- **Project Domain:** Statistics and Data Analytics
+- **Project Category:** Academic / Real-Life Statistical Analysis
+- **Development Environment:** Jupyter Notebook
+- **Programming Language:** Python
+- **Dataset Format:** CSV
+- **Analysis Type:** Statistical Data Analysis
 
-## 2. Problem Statement
+## Objectives
 
-Educational institutions and training organizations need to understand whether students are spending sufficient time on self-learning, domain-specific practice, and practical projects.
+1. Understand student lifestyle and learning habits.
+2. Perform data cleaning and validation.
+3. Calculate descriptive statistical measures.
+4. Identify outliers in numerical variables.
+5. Analyze relationships between numerical variables.
+6. Calculate 95% confidence intervals.
+7. Perform sample size analysis.
+8. Compare student data across different domains.
+9. Generate meaningful statistical findings.
 
-This project investigates:
-- How students spend their daily time.
-- How much time they dedicate to self-learning.
-- How frequently they practice career-domain skills.
-- Their practical and project experience.
-- Their perceived technical skill levels.
-- Their confidence in solving real-world problems.
-- Their perceived career readiness.
-- Relationships between learning habits, skill development, and career confidence.
+## Tools and Technologies
 
-## 3. Project Objectives
-
-- Analyze student lifestyle and daily learning patterns.
-- Understand self-learning and domain-practice habits.
-- Evaluate students' practical project experience.
-- Measure domain-specific skill levels.
-- Analyze career confidence and readiness.
-- Apply descriptive and inferential statistics.
-- Calculate 95% confidence intervals.
-- Study relationships between important numerical variables.
-- Generate evidence-based suggestions for improving student skill development.
-
-## 4. Dataset Description
-
-The project uses survey responses collected from students through a Google Form.
-
-**Dataset information from the current Python notebook:**
-- Total observations: 61 students.
-- Original dataset columns: 28.
-- Data source: Student survey responses.
-- Analysis unit: Individual student.
-
-The dataset includes student profiles, career-domain preferences, daily routines, learning hours, practical projects, technical skill ratings, and career confidence.
-
-## 5. Technologies Used
-
-| Technology | Purpose |
+| Tool / Library | Purpose |
 |---|---|
-| Python | Programming and analysis |
-| Pandas | Data manipulation and cleaning |
-| NumPy | Numerical and statistical calculations |
+| Python | Programming language |
+| Jupyter Notebook | Project development and execution |
+| Pandas | Data manipulation and analysis |
+| NumPy | Numerical calculations |
 | Matplotlib | Data visualization |
 | Seaborn | Statistical visualization |
-| SciPy | Inferential statistics and confidence intervals |
-| Jupyter Notebook | Interactive analysis |
+| SciPy | Statistical calculations |
+| Regular Expressions | Column name mapping and text processing |
 
-## 6. Project Methodology
+## Statistical Techniques Used
 
-### Step 1: Data Collection
-- Collect student responses through a survey.
-- Gather information about lifestyle, learning habits, career domains, and practical experience.
+### 1. Data Understanding and Preparation
+- Dataset loading
+- Dataset structure and dimensions
+- Column identification and mapping
+- Missing value analysis
+- Duplicate record identification
+- Data validation
+- Exclusion of personal identification fields
 
-### Step 2: Data Understanding
-- Inspect dataset dimensions and columns.
-- Understand data types.
-- Examine numerical and categorical variables.
+### 2. Descriptive Statistics
+- Mean
+- Median
+- Mode
+- Standard deviation
+- Variance
+- Minimum and maximum
+- Quartiles
+- Distribution analysis
 
-### Step 3: Data Cleaning and Preparation
-- Rename columns for better readability.
-- Convert domain-practice hour ranges into numerical values.
-- Convert domain-skill ratings into numeric values.
-- Handle missing and invalid observations where applicable.
+### 3. Outlier Analysis
+- Interquartile Range (IQR)
+- Lower and upper outlier limits
+- Outlier identification
+- Boxplot visualization
 
-### Step 4: Statistical Analysis
-- Mean, median, and mode.
-- Variance and standard deviation.
-- Quartiles and percentiles.
-- Interquartile range (IQR).
-- Correlation analysis.
-- Sample mean estimation.
-- 95% confidence intervals.
+### 4. Data Visualization
+- Histograms
+- Boxplots
+- Frequency distributions
+- Scatterplots
+- Correlation heatmaps
 
-### Step 5: Data Visualization
-- Histograms.
-- Boxplots.
-- Bar charts.
-- Scatter plots.
-- Sample-size comparison charts.
-- Career-domain comparison charts.
+### 5. Correlation Analysis
+- Pearson correlation
+- Spearman correlation
+- Relationship analysis between numerical variables
 
-### Step 6: Inferential Statistics
-- Estimate population mean for weekly domain-practice hours.
-- Estimate population mean for domain-skill ratings.
-- Calculate 95% confidence intervals.
-- Examine the effect of sample size on estimated means.
+### 6. Confidence Interval Analysis
+- 95% confidence intervals
+- t-distribution-based calculations
+- Estimation of population means from sample data
 
-### Step 7: Findings and Recommendations
-- Interpret statistical results.
-- Identify student learning patterns.
-- Understand possible skill-development gaps.
-- Provide evidence-based suggestions.
+### 7. Sample Size Analysis
+- Sample size experiments
+- Comparison of sample sizes: 30, 50, 100 and 150
+- Analysis of confidence interval changes with different sample sizes
 
-## 7. Key Findings from the Current Notebook
+### 8. Domain-Wise Analysis
+- Student domain comparisons
+- Domain-wise statistical summaries
+- Comparison of relevant numerical measures
 
-### Weekly Domain-Practice Hours
-- Sample size: 61 students.
-- Average domain-practice time: 4.57 hours per week.
-- Standard deviation: 4.14 hours.
-- 95% confidence interval: 3.51–5.63 hours per week.
+### 9. Final Statistical Findings
+- Summary of statistical observations
+- Identification of important patterns
+- Generation of analytical findings
 
-### Domain-Skill Estimation
-- Sample size: 61 students.
-- Average domain-skill rating: 2.54 out of 5.
-- Standard deviation: 1.21.
-- 95% confidence interval: 2.23–2.85.
+## Project Workflow
 
-### Sample Size Analysis
+1. Import required Python libraries.
+2. Load the student survey dataset.
+3. Understand dataset structure and variables.
+4. Map and validate dataset columns.
+5. Clean the dataset.
+6. Perform descriptive statistical analysis.
+7. Identify outliers using IQR.
+8. Perform data visualization.
+9. Calculate Pearson and Spearman correlations.
+10. Calculate 95% confidence intervals.
+11. Perform sample size experiments.
+12. Conduct domain-wise analysis.
+13. Generate final statistical findings.
+14. Export analysis results into CSV files.
 
-The sample means calculated in the notebook were:
+## Project Output Files
 
-| Sample Size | Sample Mean |
-|---:|---:|
-| 30 | 2.30 |
-| 50 | 2.44 |
-| 100 | 2.52 |
-| 150 | 2.51 |
+The project generates the following analytical output files:
 
-For sample sizes of 100 and 150, sampling was performed with replacement because the dataset contains only 61 valid observations.
+| Output File | Description |
+|---|---|
+| Cleaned_Student_Dataset.csv | Cleaned dataset |
+| Descriptive_Statistics.csv | Descriptive statistical summary |
+| Outlier_Analysis.csv | Outlier identification results |
+| Correlation_Analysis.csv | Correlation analysis results |
+| Confidence_Interval_Analysis.csv | Confidence interval results |
+| Domain_Wise_Analysis.csv | Domain-wise analysis, if applicable |
+| Sample_Size_Experiment.csv | Sample size experiment results, if applicable |
+| Final_Statistical_Findings.csv | Final statistical observations |
+| Column_Mapping_Report.csv | Dataset column mapping details |
+| Data_Validation_Report.csv | Data validation results |
 
-### Career-Domain Analysis
+## How to Run the Project
 
-The notebook also compares:
-- Number of students by career domain.
-- Average domain-skill rating by career domain.
-- Average weekly practice hours by career domain.
+1. Download or clone this GitHub repository.
+2. Install Python and Jupyter Notebook.
+3. Install the required libraries:
 
-## 8. Business Impact
+```python
+pip install pandas numpy matplotlib seaborn scipy
+```
 
-This analysis can help educational institutions and training organizations:
+4. Open Jupyter Notebook.
+5. Open the project `.ipynb` file.
+6. Update the dataset file path in the notebook.
+7. Run all cells sequentially.
+8. Review the statistical analysis, visualizations, and generated CSV output files.
 
-- Understand students' learning habits.
-- Identify gaps in practical experience.
-- Encourage consistent domain-specific practice.
-- Improve project-based learning opportunities.
-- Design career-readiness programs.
-- Support data-driven academic planning.
+## Skills Demonstrated
 
-## 9. Important Statistical Consideration
+- Statistical Data Analysis
+- Python Programming
+- Jupyter Notebook
+- Data Cleaning and Preprocessing
+- Descriptive Statistics
+- Outlier Detection
+- Correlation Analysis
+- Confidence Interval Estimation
+- Sample Size Analysis
+- Data Visualization
+- Data Interpretation
+- Analytical Reporting
 
-Correlation does not necessarily imply causation.
+## Conclusion
 
-The relationships observed in this sample should be interpreted as statistical associations, not proof of cause and effect.
+This project demonstrates the practical implementation of statistical concepts using Python in Jupyter Notebook.
 
-The confidence intervals also depend on appropriate sampling assumptions and how representative the respondents are of the wider student population.
+It provides an opportunity to understand student lifestyle, learning habits, and domain skill development through statistical analysis. The project also demonstrates how raw survey data can be transformed into meaningful information using statistical methods and data visualization.
 
-## 10. Conclusion
-
-This project demonstrates how statistical analysis can convert real-life student survey data into meaningful insights.
-
-By combining Python, Pandas, NumPy, Matplotlib, and statistical techniques, the project explores student learning behavior, practical skill development, and career readiness.
-
-The ultimate goal is to support evidence-based decisions that improve students' learning experiences and professional development.
-
-## 11. Future Scope
-
-- Expand the survey to a larger and more representative student population.
-- Add complete descriptive and correlation analysis for all major variables.
-- Develop an interactive Power BI dashboard.
-- Compare student performance across branches and academic years.
-- Explore predictive models for career readiness, if suitable data becomes available.
-
----
-
-**Project Category:** Data Analytics | Statistics | Exploratory Data Analysis (EDA)
+**This project showcases practical knowledge of Statistics, Python, Jupyter Notebook, and Data Analytics.**
